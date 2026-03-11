@@ -22,6 +22,7 @@
             string firstName = "Zitian";
             printGreeting(firstName); // calling the method and passing the firstName variable as an argument
 
+            Console.WriteLine(subtract(22, 44));
         }
 
         // 5. method declaration
@@ -30,10 +31,10 @@
             Console.WriteLine("Hello, " + name);
         }
 
-        // 6. 'a tale of two numbers' = method that takes 2 numbers, subtracts one from the other and prints result
-        private static int subtractNumbers(int num1, int num2)
+        // 6 A tale of two numbers 
+        private static int subtract(int one, int two)
         {
-            return num1 - num2;
+            return one - two;
         }
     }
 }
